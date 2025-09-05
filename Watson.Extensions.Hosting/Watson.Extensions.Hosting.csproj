@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!-- Target Frameworks -->
@@ -12,7 +12,7 @@
       These properties are used to create the NuGet package.
     -->
     <PackageId>Watson.Extensions.Hosting</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Luca Fabbri &lt;lucafabbri84@live.it&gt;</Authors>
     <Company>Luca Fabbri</Company>
     <Description>
@@ -35,7 +35,7 @@
   <!-- This includes the README.md from the repository root into the package -->
   <!-- Adjust the path to your README.md file if it's in a different location relative to this .csproj file -->
   <ItemGroup>
-    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
