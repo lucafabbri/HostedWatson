@@ -1,7 +1,7 @@
 # Watson Extensions for Modern .NET Hosting
 
 [![NuGet Version](https://img.shields.io/nuget/v/Watson.Extensions.Hosting.svg)](https://www.nuget.org/packages/Watson.Extensions.Hosting/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/lucafabbri/HostedWatson/dotnet.yml?branch=main)](https://github.com/lucafabbri/HostedWatson/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/lucafabbri/HostedWatson/main.yml?branch=main)](https://github.com/lucafabbri/HostedWatson/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `Watson.Extensions.Hosting` brings the power and flexibility of `Microsoft.Extensions.Hosting` (the .NET Generic Host) to the lightweight and high-performance [WatsonWebserver](https://github.com/dotnet/WatsonWebserver). This library empowers you to build web servers using modern, familiar patterns like Dependency Injection, Middleware, MVC-style Controllers, and Minimal APIs, just as you would with ASP.NET Core.
