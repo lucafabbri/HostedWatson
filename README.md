@@ -1,7 +1,7 @@
 # Watson Extensions for Modern .NET Hosting
 
 [![NuGet Version](https://img.shields.io/nuget/v/Watson.Extensions.Hosting.svg)](https://www.nuget.org/packages/Watson.Extensions.Hosting/)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/your-repo/dotnet.yml?branch=main)](https://github.com/your-username/your-repo/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/lucafabbri/HostedWatson/dotnet.yml?branch=main)](https://github.com/lucafabbri/HostedWatson/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `Watson.Extensions.Hosting` brings the power and flexibility of `Microsoft.Extensions.Hosting` (the .NET Generic Host) to the lightweight and high-performance [WatsonWebserver](https://github.com/dotnet/WatsonWebserver). This library empowers you to build web servers using modern, familiar patterns like Dependency Injection, Middleware, MVC-style Controllers, and Minimal APIs, just as you would with ASP.NET Core.
@@ -44,9 +44,9 @@ dotnet add package Watson.Extensions.Hosting
 Next, you need to choose which `WatsonWebserver` implementation to use. Both are part of the excellent [WatsonWebserver project](https://github.com/dotnet/WatsonWebserver). `WatsonWebserver.Lite` is a great choice for simple, dependency-free projects.
 
 ```shell
-dotnet add package WatsonWebserver.Lite
+dotnet add package Watson.Lite
 # OR for the full version
-dotnet add package WatsonWebserver
+dotnet add package Watson
 ```
 
 ### 3. Configure Your Server
@@ -261,8 +261,8 @@ services.AddWatsonWebserver<WebserverLite>(options =>
 
 We welcome contributions from the community! Whether it's a bug fix, a new feature, or a documentation improvement, your help is greatly appreciated.
 
-1.  **Report Bugs**: If you find an issue, please [open an issue](https://github.com/your-username/your-repo/issues) and provide detailed steps to reproduce it.
-2.  **Suggest Features**: Have a great idea? [Open an issue](https://github.com/your-username/your-repo/issues) to start a discussion.
+1.  **Report Bugs**: If you find an issue, please [open an issue](https://github.com/lucafabbri/HostedWatson/issues) and provide detailed steps to reproduce it.
+2.  **Suggest Features**: Have a great idea? [Open an issue](https://github.com/lucafabbri/HostedWatson/issues) to start a discussion.
 3.  **Submit Pull Requests**: Feel free to fork the repository, create a new branch for your changes, and open a Pull Request when you're ready.
 
 ## ❤️ Support the Project
