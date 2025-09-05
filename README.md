@@ -265,6 +265,8 @@ We welcome contributions from the community! Whether it's a bug fix, a new featu
 2.  **Suggest Features**: Have a great idea? [Open an issue](https://github.com/lucafabbri/HostedWatson/issues) to start a discussion.
 3.  **Submit Pull Requests**: Feel free to fork the repository, create a new branch for your changes, and open a Pull Request when you're ready.
 
+For detailed contributing guidelines, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
 ## ❤️ Support the Project
 
 The easiest way to show your support is by **starring the repository** on GitHub! ⭐

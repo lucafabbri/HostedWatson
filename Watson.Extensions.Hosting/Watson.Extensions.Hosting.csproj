@@ -12,7 +12,7 @@
       These properties are used to create the NuGet package.
     -->
     <PackageId>Watson.Extensions.Hosting</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Luca Fabbri &lt;lucafabbri84@live.it&gt;</Authors>
     <Company>Luca Fabbri</Company>
     <Description>
